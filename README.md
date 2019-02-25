@@ -12,7 +12,8 @@
 ```vim telegram```
 
 3) Add this script when user connect like this:
-```echo "#!/usr/bin/env bash
+```echo \
+"#!/usr/bin/env bash
 # Log connection
 bash /opt/ssh-login-alert-telegram/alert.sh" > /etc/profile.d/telegram-alert.sh
 ```
