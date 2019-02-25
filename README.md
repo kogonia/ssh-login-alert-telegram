@@ -15,7 +15,7 @@
 ```
 "#!/usr/bin/env bash
 # Log connection
-bash /usr/sbin/telegram" > /etc/profile.d/telegram-alert.sh
+bash /opt/ssh-login-alert-telegram/telegram" > /etc/profile.d/telegram-alert.sh
 ```
 
 4) Confirm that the script is working by logging you to ssh again.
